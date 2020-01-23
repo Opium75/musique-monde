@@ -3,21 +3,30 @@ Musique-monde (Nainterpolée)
 ##### Pierre THIEL
 ![musique_monde](./doc/captures_ecran/couv.jpg)
 =
+
+[EN]
+<i>A procedural representation of sound with spectral analysis.</i>
+
+As an exemple, this method is here implemented in Blender to deform a layout of grids according to <i>In the Hall of the Mountain King</i> from <i>Peer Gynt</i> by Edvard Grieg.
+
+[FR]
 <i>Une représentation cinématique du son par analyse spectrale.</i>
 
-Le résultat proposé est la déformation de grilles simples dans <i>Blender</i>, à partir d'un extrait de <u>Peer Gynt</u>, <i>Dans l'antre du roi de la montagne</i>
+Le résultat proposé est la déformation de grilles simples dans <i>Blender</i>, à partir d'un extrait de <i>Dans l'antre du roi de la montagne</i> d'Edvard Grieg, de l'opéra <u>Peer Gynt</u>.
 
-Rendu : [Nainterpolée](https://vimeo.com/383395159)
 
-### Dépendances :
+Result: [Nainterpolée](https://vimeo.com/383395159)
+
+
+### Depencies :
 * Blender 2.8
 * Numpy
 * Scipy
 
-### Configuration :
-* Ajouter un fichier audio  <i>WAV</i> stéréo au dossier <i>audio/</i>.
-* Changer le chemin d'accès dans <i>__main__.py</i>
-* À lancer comme script dans Blender 2.8
+### Set-up :
+* Add a stereo <i>WAV</i> audio file to <i>audio/</i>.
+* Change path to audio in <i>__main__.py</i>.
+* Launch <i>__main__.py</i> as a script in Blender 2.8.
 
 ### Captures d'écran :
 
